@@ -1,11 +1,38 @@
 <html>
 	<head>
 		<title>Pierre Le Bras</title>
+		<!-- styles -->
+		<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="styles/main.css">
+		<!-- scripts -->
+		<script src="libs/jQuery/jquery-1.11.2.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+		<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+		<script src="scripts/menu.js"></script>
 	</head>
 	<body>
-		<h3>Pierre Le Bras</h3>
-		<h4>personal website</h4>
-		<p>Site under construction, sorry for inconvenience</p>
-		<p>Contact : pfl.lebras@gmail.com</p>
+		<div id="menu">
+			<div id="menuContent">
+				<div id="menuItems">
+					<span onclick="showContent('templates/hello.html')">Curriculum Vitae</span>
+					<span onclick="showContent('templates/hello2.html')">Portfolio</span>
+				</div>
+			</div>
+			<div id="menuOffset"></div>
+			<button id="menuDisplayButton" onclick="toggleMenu()">
+				<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+			</button>
+		</div>
+		<div id="body">
+			<h3>Pierre Le Bras</h3>
+			<h4>personal website</h4>
+			<p>Site under construction, sorry for inconvenience</p>
+			<p>Contact : pfl.lebras@gmail.com</p>
+			<div id="container">
+
+			</div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolorem pariatur, perferendis rerum, itaque ut consequatur amet, velit sit delectus vero ipsam voluptatum at sint eum sapiente, ex commodi esse!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur reiciendis quasi, neque harum maxime et veritatis quas, facere ut laudantium nisi quod, ea ipsum esse aut ipsa commodi tempore sapiente.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum vel debitis eos aliquid officia accusantium, est ipsa pariatur quos animi quasi, quibusdam perspiciatis, eligendi nemo facilis necessitatibus et explicabo expedita.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim asperiores voluptatum excepturi laboriosam, quidem libero earum, ea voluptate laudantium ipsam, rem mollitia commodi obcaecati. Error hic voluptatibus, expedita veritatis possimus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur distinctio sed magni. Nisi quia eligendi sed accusamus accusantium nostrum tempore minima quisquam. Ad fuga sequi dicta aspernatur eos cupiditate. Hic.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem possimus cupiditate quis harum qui saepe, quod nisi molestiae sint repellendus a soluta neque est quaerat nulla modi odit praesentium, consequatur.</p>
+		</div>
 	</body>
 </html>
