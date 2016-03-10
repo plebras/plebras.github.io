@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Conceptual Map Experiment, March16</title>
+	<meta name="author" content="P Le Bras">
+	<script type="text/javascript" src="bower_components/d3/d3.min.js"></script>
+	<script type="text/javascript" src="bower_components/d3-tip/index.js"></script>
+	<script type="text/javascript" src="scripts/router.js"></script>
+	<script type="text/javascript" src="scripts/dataRecorder.js"></script>
+	<script type="text/javascript" src="scripts/hexmap.js"></script>
+	<script type="text/javascript" src="scripts/gmap.js"></script>
+
+	<link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+	<script type="text/html" id="start">
+		<div class="message">
+			<p>Thank you for participating to this experiment.</p>
+			<p>The experiment purpose is compare two visualisations techniques for the same underlying data. The data used for this experiment is a collection of topics, more or less similar to each other. A topic is a collection of words found to be often used together in documents by a topic modeling algorithm.</p>
+			<p>First the visualisations will be shown alternately and your task will be to find specific topics in it. You will then be asked questions testing the visualisations in general.</p>
+			<p>Do not reload the page, or try to go to the previous page with your browser, or else all work will be lost.</p>
+			<p class="important">Fill in the consent form and press the start button below.</p>
+		</div>
+		<button class="proceed" onclick="done()">Start</button>
+	</script>
+
+	<script type="text/html" id="colorTest">
+		<div class="message">
+			Can you distinctly identify the following colors :
+		</div>
+		<svg id="colorSquares"></svg>
+		<button class="proceed" onclick="done()">Continue</button>
+	</script>
+
+	<script type="text/html" id="expId">
+		<div class="message">
+			<p>Enter the experiment ID in the box below :</p>
+		</div>
+		<input type="text" id="currentExpId" value="" placeholder="Experiment ID">
+		<button class="proceed" onclick="done()">Continue</button>
+	</script>
+
+	<script type="text/html" id="searchInstr">
+		<div class="message">
+			<p>Your task is to find topics on the following visualisation.</p>
+			<p><b>Click</b> on the element corresponding to the topic once you have found it.</p>
+			<!-- <p class="important">Find topic about : <em><%= topicWordsRequested %></em></p> -->
+		</div>
+		<button class="proceed" onclick="done()">Go</button>
+		<button class="stop" onclick="stop()">Stop</button>
+	</script>
+
+	<script type="text/html" id="searchTask">
+		<div class="message">
+			<p class="important">Find topic about : <em><%= topicWordsRequested %></em></p>
+		</div>
+		<div>
+			<div class="viz">
+				<svg id="<%= viz %>">
+					<!-- <text y="10">here be <%= viz %></text> -->
+				</svg>
+			</div>
+		</div>
+		<!-- <button onclick="done()">skip(to be remove)</button> -->
+		<button class="stop" onclick="stop()">Stop</button>
+	</script>
+
+	<script type="text/html" id="searchLikert">
+		<div class="message">
+			<p class="important correct" style="display: <%= correct?'block':'none' %>">Correct &#10004;</p>
+			<p class="important incorrect" style="display: <%= correct?'none':'block' %>">Incorrect &#10008;</p>
+		</div>
+		<p >On the following scale, how would you rate the task :</p>
+		<div class="btn-likert-group" style="margin-top: <%= marginTop %>px;">
+			<button onclick="likertSelect(this)" class="btn-likert" value="1">Easy</button>
+			<button onclick="likertSelect(this)" class="btn-likert" value="2">Quite easy</button>
+			<button onclick="likertSelect(this)" class="btn-likert" value="3">Neither easy nor difficult</button>
+			<button onclick="likertSelect(this)" class="btn-likert" value="4">Quite difficult</button>
+			<button onclick="likertSelect(this)" class="btn-likert" value="5">Difficult</button>
+		</div>
+		<!-- <button class="proceed" onclick="done()">Continue</button> -->
+		<button class="stop" onclick="stop()">Stop</button>
+	</script>
+
+	<script type="text/html" id="questionnaire1">
+		<div class="message">
+			<p class="">On the provided questionnaire select which of the following categories (i.e. group of topics) where represented on the visualisations.</p>
+		</div>
+		<table id="categories">
+			<tbody>
+				<tr><td>physics</td><td>sports</td><td>healthcare</td></tr>
+				<tr><td>biology</td><td>industrial</td><td>data science</td></tr>
+				<tr><td>astronomy</td><td>humanities</td><td>academia</td></tr>
+				<tr><td>human behavior</td><td>chemistry</td><td>economy</td></tr>
+				<tr><td>politics</td><td>agriculture</td><td>environment</td></tr>
+			</tbody>
+			<caption align="bottom">List of categories</caption>
+		</table>
+		<button class="proceed" onclick="done()">Continue</button>
+		<button class="stop" onclick="stop()">Stop</button>
+	</script>
+
+	<script type="text/html" id="questionnaire2">
+		<div class="message">
+			<p class="">On the provided questionnaire draw a map of those categories as you remember them.</p>
+		</div>
+		<button class="proceed" onclick="done()">Continue</button>
+		<button class="stop" onclick="stop()">Stop</button>
+	</script>
+
+	<script type="text/html" id="questionnaire3">
+		<div class="message">
+			<p class="">Fill in the remaining questions on the questionnaire.</p>
+		</div>
+		<div>
+			<svg id="hexmap"></svg>
+			<svg id="gmap"></svg>
+		</div>
+		<button class="proceed" onclick="done()">Finish</button>
+		<button class="stop" onclick="stop()">Stop</button>
+	</script>
+
+	<script type="text/html" id="finish">
+		<div class="message">
+			<p class="important">Thank you for participating.</p>
+		</div>
+	</script>
+
+	<div id="view"></div>
+
+
+	<script type="text/javascript" src="scripts/app.js"></script>
+
+</body>
+</html>
