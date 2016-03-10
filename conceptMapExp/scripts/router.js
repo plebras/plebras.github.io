@@ -52,7 +52,7 @@
       }
       // P LeBras's code --------------
       route.redirectTo = function(path){
-        location.replace(location.origin+"#"+path);
+        location.hash = "#"+path//.replace(location.origin+"#"+path);
       }
       // ------------------------------
       var el = null, current = null;
