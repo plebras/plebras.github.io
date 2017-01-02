@@ -1,0 +1,76 @@
+[
+  {
+    "sectionTitle":"Education",
+    "items":[
+      {
+        "type":"subsec",
+        "title":"Doctor of Philosophy, Computer Science",
+        "items":[
+
+        ]
+      },
+      {
+        "type":"par",
+        "text":"paragraph 1"
+      },{
+        "type":"li",
+        "items":[
+          {
+            "type":"par",
+            "text":"list item 1"
+          },{
+            "type":"li",
+            "text":"sublist:",
+            "items":[
+              {
+                "type":"par",
+                "text":"sub list item 1"
+              },{
+                "type":"li",
+                "text":"sublist 2:",
+                "items":[
+                  {
+                    "type":"par",
+                    "text":"sub list item 21"
+                  },{
+                    "type":"par",
+                    "text":"sub list item 22"
+                  }
+                ]
+              },{
+                "type":"par",
+                "text":"sub list item 2"
+              }
+            ]
+          },{
+            "type":"par",
+            "text":"list item 2"
+          }
+        ]
+      },{
+        "type":"subsec",
+        "title":"subsection",
+        "items":[
+          {
+            "type":"par",
+            "text":"subsection paragraph"
+          }
+        ]
+      }
+    ]
+  },{
+  "sectionTitle":"Work Experience",
+  "items":[
+    {
+      "type":"par",
+      "text":"paragraph 2"
+    },{
+      "type":"img",
+      "src":"data/img/v2.png",
+      "alt":"avatar picture",
+      "width":100,
+      "height":"none"
+    }
+  ]
+}
+]
