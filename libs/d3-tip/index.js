@@ -3,6 +3,10 @@
 //
 // Tooltips for d3.js SVG visualizations
 
+// Modified by plebras:
+// introduced id to tooltips, possibility to give id to new tooltips
+// therefore won't create duplicates of tooltips
+
 (function (root, factory) {
   if (typeof define === 'function' && define.amd) {
     // AMD. Register as an anonymous module with d3 as a dependency.
@@ -20,11 +24,12 @@
   // Public - contructs a new tooltip
   //
   // Returns a tip
-  return function() {
+  return function(tipId) {
+
     var direction = d3_tip_direction,
         offset    = d3_tip_offset,
         html      = d3_tip_html,
-        node      = initNode(),
+        node      = initNode(tipId),
         svg       = null,
         point     = null,
         target    = null
@@ -235,12 +240,19 @@
       }
     }
 
-    function initNode() {
-      var node = d3.select(document.createElement('div'));
-      node.style('position', 'absolute').style('top', 0).style('opacity', 0)
-      	.style('pointer-events', 'none').style('box-sizing', 'border-box')
-
-      return node.node()
+    function initNode(tipId) {
+      if(document.getElementById(tipId) !== null){
+        var node = d3.select(document.getElementById(tipId));
+        return node.node();
+      } else {
+          var node = d3.select(document.createElement('div'));
+          node.style('position', 'absolute').style('top', 0).style('opacity', 0)
+              .style('pointer-events', 'none').style('box-sizing', 'border-box')
+          if(typeof tipId === 'string'){
+              node.attr('id', tipId);
+          }
+          return node.node()
+      }
     }
 
     function getSVGNode(el) {
