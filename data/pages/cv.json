@@ -15,16 +15,17 @@
             "height":200,
             "data":[
               {"text":"JavaScript","size":24},
+              {"text":"Typescript","size":12},
               {"text":"HTML","size":22},
               {"text":"CSS","size":22},
-              {"text":"Scala","size":9},
+              {"text":"Scala","size":14},
               {"text":"PHP","size":7},
-              {"text":"Java","size":17},
-              {"text":"Python","size":14},
-              {"text":"C","size":5},
-              {"text":"C++","size":5},
-              {"text":"ADA","size":2},
-              {"text":"OCaml","size":3}
+              {"text":"Java","size":15},
+              {"text":"Python","size":14}//,
+//              {"text":"C","size":5},
+//              {"text":"C++","size":5},
+//              {"text":"ADA","size":2},
+//              {"text":"OCaml","size":3}
             ]
           }
         ]
@@ -39,13 +40,13 @@
             "height":200,
             "data":[
               {"text":"D3JS","size":24},
-              {"text":"AngularJS","size":19},
+              {"text":"AngularJS","size":14},
               {"text":"Swing","size":9},
-              {"text":"Less","size":6},
+              {"text":"Less","size":10},
               {"text":"MySQL","size":6},
               {"text":"MongoDB","size":7},
               {"text":"Bootstrap","size":6},
-              {"text":"Git","size":20},
+              {"text":"Git","size":18},
               {"text":"NodeJS","size":14},
               {"text":"Gulp","size":5},
               {"text":"OpenGL","size":3},
@@ -73,7 +74,7 @@
           {"name":"Doctor of Philosophy","location":"Heriot-Watt University","type":"education","dates":[{"start":"09-2015", "end":"09-2018"}]},
           {"name":"Front-End Development Intern","location":"Dictanova","type":"work","dates":[{"start":"04-2013", "end":"06-2013"}]},
           {"name":"Research Intern","location":"Heriot-Watt University","type":"work","dates":[{"start":"06-2014", "end":"08-2014"},{"start":"06-2015", "end":"08-2015"},{"start":"06-2016", "end":"08-2016"}]},
-          {"name":"Lab Assistant","location":"Heriot-Watt University","type":"work","dates":[{"start":"01-2015", "end":"05-2015"},{"start":"09-2015", "end":"05-2016"},{"start":"09-2016", "end":"12-2016"}]}
+          {"name":"Lab Assistant","location":"Heriot-Watt University","type":"work","dates":[{"start":"01-2015", "end":"05-2015"},{"start":"09-2015", "end":"05-2016"},{"start":"09-2016", "end":"05-2017"},{"start":"09-2017", "end":"12-2017"}]}
         ]
       }
     ]
@@ -85,6 +86,10 @@
       {
         "type":"li",
         "items":[
+          {
+            "type":"par",
+            "text":"<strong>Pierre Le Bras</strong>, David A. Robb, Thomas S. Methven, Stefano Padilla, and Mike J. Chantler. 2018. Improving User Confidence in Concept Maps: Exploring Data Driven Explanations. In  Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. ACM."
+          },
           {
             "type":"par",
             "text":"Lin, Y., Le Bras, P. and Grov, G., 2016, April. Developing and Debugging Proof Strategies by Tinkering. In <i>International Conference on Tools and Algorithms for the Construction and Analysis of Systems</i> (pp. 573-579). Springer Berlin Heidelberg. <a href='http://link.springer.com/chapter/10.1007/978-3-662-49674-9_37'>link</a>."
