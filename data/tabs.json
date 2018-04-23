@@ -1,5 +1,9 @@
 [
   {
+    "tabTitle":"Home",
+    "pageDataUrl":"data/pages/home.json"
+  },
+  {
     "tabTitle":"CV",
     "pageDataUrl":"data/pages/cv.json"
   },{
