@@ -35,15 +35,15 @@
             "width":740,
             "height":200,
             "data":[
-              {"text":"D3JS","size":24},
-              {"text":"AngularJS","size":14},
+              {"text":"D3.js","size":24},
+              {"text":"Angular","size":14},
               {"text":"Swing","size":9},
               {"text":"Less","size":10},
               {"text":"MySQL","size":6},
               {"text":"MongoDB","size":7},
               {"text":"Bootstrap","size":6},
               {"text":"Git","size":18},
-              {"text":"NodeJS","size":14},
+              {"text":"Node","size":14},
               {"text":"Gulp","size":5},
               {"text":"Linux","size":10}
             ]
@@ -81,11 +81,11 @@
         "items":[
           {
             "type":"par",
-            "text":"<strong>Pierre Le Bras</strong>, David A. Robb, Thomas S. Methven, Stefano Padilla, and Mike J. Chantler. 2018. Improving User Confidence in Concept Maps: Exploring Data Driven Explanations. In <i>Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems</i>. ACM."
+            "text":"<strong>Pierre Le Bras</strong>, David A. Robb, Thomas S. Methven, Stefano Padilla, and Mike J. Chantler. 2018. Improving User Confidence in Concept Maps: Exploring Data Driven Explanations. In <i>Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems</i>. ACM. <a href='https://dl.acm.org/citation.cfm?id=3173978'>link</a>"
           },
           {
             "type":"par",
-            "text":"Yuhui Lin, <strong>Pierre Le Bras</strong>, and Gudmund Grov. 2016. Developing and debugging proof strategies by tinkering. In <i>International Conference on Tools and Algorithms for the Construction and Analysis of Systems</i>. Springer, Berlin, Heidelberg, 573-579. <a href='http://link.springer.com/chapter/10.1007/978-3-662-49674-9_37'>link</a>."
+            "text":"Yuhui Lin, <strong>Pierre Le Bras</strong>, and Gudmund Grov. 2016. Developing and debugging proof strategies by tinkering. In <i>International Conference on Tools and Algorithms for the Construction and Analysis of Systems</i>. Springer, Berlin, Heidelberg, 573-579. <a href='http://link.springer.com/chapter/10.1007/978-3-662-49674-9_37'>link</a>"
           }
         ]
       }
@@ -97,22 +97,27 @@
     "items":[
       {
         "type":"subsec",
-        "title":"Candidate for the degree of Doctor of Philosophy (PhD), Computer Science",
+        "title":"Candidate for the degree of Doctor of Philosophy (Ph.D.), Computer Science",
         "items":[
           {
             "type":"subtitle",
             "text":"Heriot-Watt University, Edinburgh. 2015 - present."
           },{
             "type":"par",
-            "text":"Following my interest in Data Science, I started a PhD. in Data Visualisation and Analytics at the <a href='http://strategicfutures.org/'>Strategic Futures Laboratory</a> (formerly <a href='http://www.macs.hw.ac.uk/texturelab/'>TextureLab</a>) of Heriot-Watt University."
-          },{
+            "text":"Following my interest in Data Science and HCI, I started a Ph.D. in Data Visualisation and Analytics at the <a href='http://strategicfutures.org/'>Strategic Futures Laboratory</a> (formerly <a href='http://www.macs.hw.ac.uk/texturelab/'>TextureLab</a>) of Heriot-Watt University."
+          },
+          {
+            "type": "par",
+            "text": "My research is focused on automated concept map visualisations, and their impact on user confidence. In particular I have implemented and analysed the effects of data-driven explanations when used to improve user confidence. My investigations led me to draw out confidence-driven usability recommendations."
+          },
+          {
             "type":"par",
-            "text":"My research is focusing on mapping similarity information, mainly from topic generation of large corpora. I am also investigating trust and confidence in data visualisations."
+            "text":"I was awarded the <i>James Watt Scholarship</i> to fund this studentship."
           }
         ]
       },{
         "type":"subsec",
-        "title":"Bachelor of Science with Honours (BSc Hons.), Computer Science",
+        "title":"Bachelor of Science with Honours (B.Sc. Hons.), Computer Science",
         "items":[
           {
             "type":"subtitle",
@@ -188,7 +193,7 @@
             "text":"Heriot-Watt University, Edinburgh. 2014 - present."
           },{
             "type":"par",
-            "text":"While pursuing my studies, I sometimes assist teachers during their lab sessions. I help the students, by answering their questions and giving guidance for their projects."
+            "text":"While pursuing my studies, I have assisted teachers during their lab sessions. I helped undergraduate and postgraduate computer-science students, by answering their questions and giving guidance for their projects. I also conducted tutorial sessions in building visualisations application in JavaScript and with D3.js."
           }
         ]
       },{
