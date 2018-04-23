@@ -21,11 +21,7 @@
               {"text":"Scala","size":14},
               {"text":"PHP","size":7},
               {"text":"Java","size":15},
-              {"text":"Python","size":14}//,
-//              {"text":"C","size":5},
-//              {"text":"C++","size":5},
-//              {"text":"ADA","size":2},
-//              {"text":"OCaml","size":3}
+              {"text":"Python","size":14}
             ]
           }
         ]
@@ -49,9 +45,6 @@
               {"text":"Git","size":18},
               {"text":"NodeJS","size":14},
               {"text":"Gulp","size":5},
-              {"text":"OpenGL","size":3},
-              {"text":"Blender","size":5},
-              {"text":"Unity","size":5},
               {"text":"Linux","size":10}
             ]
           }
