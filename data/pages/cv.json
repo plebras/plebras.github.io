@@ -72,25 +72,6 @@
       }
     ]
   },{
-    "sectionTitle":"Publications",
-    "expandable": true,
-    "expanded": false,
-    "items":[
-      {
-        "type":"li",
-        "items":[
-          {
-            "type":"par",
-            "text":"<strong>Pierre Le Bras</strong>, David A. Robb, Thomas S. Methven, Stefano Padilla, and Mike J. Chantler. 2018. Improving User Confidence in Concept Maps: Exploring Data Driven Explanations. In <i>Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems</i>. ACM. <a href='https://dl.acm.org/citation.cfm?id=3173978'>link</a>"
-          },
-          {
-            "type":"par",
-            "text":"Yuhui Lin, <strong>Pierre Le Bras</strong>, and Gudmund Grov. 2016. Developing and debugging proof strategies by tinkering. In <i>International Conference on Tools and Algorithms for the Construction and Analysis of Systems</i>. Springer, Berlin, Heidelberg, 573-579. <a href='http://link.springer.com/chapter/10.1007/978-3-662-49674-9_37'>link</a>"
-          }
-        ]
-      }
-    ]
-  },{
     "sectionTitle":"Education",
     "expandable": true,
     "expanded": false,

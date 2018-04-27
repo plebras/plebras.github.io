@@ -10,6 +10,9 @@
     "tabTitle":"Projects",
     "pageDataUrl":"data/pages/projects.json"
   },{
+    "tabTitle":"Publications",
+    "pageDataUrl":"data/pages/publications.json"
+  },{
     "tabTitle":"Contact",
     "pageDataUrl":"data/pages/contact.json"
   }
