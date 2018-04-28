@@ -1,207 +1,175 @@
-[
-  {
-    "sectionTitle":"Skills",
-    "expandable": true,
-    "expanded": true,
-    "items":[
-      {
-        "type":"subsec",
-        "title":"Programming Languages",
-        "items":[
-          {
-            "type":"viz",
-            "viztype":"wordcloud",
-            "width":740,
-            "height":200,
-            "data":[
-              {"text":"JavaScript","size":24},
-              {"text":"Typescript","size":12},
-              {"text":"HTML","size":22},
-              {"text":"CSS","size":22},
-              {"text":"Scala","size":14},
-              {"text":"PHP","size":7},
-              {"text":"Java","size":15},
-              {"text":"Python","size":14}
-            ]
-          }
-        ]
-      },{
-        "type":"subsec",
-        "title":"Technologies",
-        "items":[
-          {
-            "type":"viz",
-            "viztype":"wordcloud",
-            "width":740,
-            "height":200,
-            "data":[
-              {"text":"D3.js","size":24},
-              {"text":"Angular","size":14},
-              {"text":"Swing","size":9},
-              {"text":"Less","size":10},
-              {"text":"MySQL","size":6},
-              {"text":"MongoDB","size":7},
-              {"text":"Bootstrap","size":6},
-              {"text":"Git","size":18},
-              {"text":"Node","size":14},
-              {"text":"Gulp","size":5},
-              {"text":"Linux","size":10}
-            ]
-          }
-        ]
-      }
-    ]
-  },{
-    "sectionTitle":"Timeline",
-    "expandable": true,
-    "expanded": true,
-    "items":[
-      {
-        "type":"viz",
-        "viztype":"timeline",
-        "width":740,
-        "height":160,
-        "data":[
-          {"name":"Associate Degree","location":"IUT Nantes","type":"education","dates":[{"start":"09-2011", "end":"06-2013"}]},
-          {"name":"Bachelor of Science","location":"Heriot-Watt University","type":"education","dates":[{"start":"09-2013", "end":"05-2015"}]},
-          {"name":"Doctor of Philosophy","location":"Heriot-Watt University","type":"education","dates":[{"start":"09-2015", "end":"09-2018"}]},
-          {"name":"Front-End Development Intern","location":"Dictanova","type":"work","dates":[{"start":"04-2013", "end":"06-2013"}]},
-          {"name":"Research Intern","location":"Heriot-Watt University","type":"work","dates":[{"start":"06-2014", "end":"08-2014"},{"start":"06-2015", "end":"08-2015"},{"start":"06-2016", "end":"08-2016"}]},
-          {"name":"Lab Assistant","location":"Heriot-Watt University","type":"work","dates":[{"start":"01-2015", "end":"05-2015"},{"start":"09-2015", "end":"05-2016"},{"start":"09-2016", "end":"05-2017"},{"start":"09-2017", "end":"12-2017"}]}
-        ]
-      }
-    ]
-  },{
-    "sectionTitle":"Education",
-    "expandable": true,
-    "expanded": false,
-    "items":[
-      {
-        "type":"subsec",
-        "title":"Candidate for the degree of Doctor of Philosophy (Ph.D.), Computer Science",
-        "items":[
-          {
-            "type":"subtitle",
-            "text":"Heriot-Watt University, Edinburgh. 2015 - present."
-          },{
-            "type":"par",
-            "text":"Following my interest in Data Science and HCI, I started a Ph.D. in Data Visualisation and Analytics at the <a href='http://strategicfutures.org/'>Strategic Futures Laboratory</a> (formerly <a href='http://www.macs.hw.ac.uk/texturelab/'>TextureLab</a>) of Heriot-Watt University."
-          },
-          {
-            "type": "par",
-            "text": "My research is focused on automated concept map visualisations, and their impact on user confidence. In particular I have implemented and analysed the effects of data-driven explanations when used to improve user confidence. My investigations led me to draw out confidence-driven usability recommendations."
-          },
-          {
-            "type":"par",
-            "text":"I was awarded the <i>James Watt Scholarship</i> to fund this studentship."
-          }
-        ]
-      },{
-        "type":"subsec",
-        "title":"Bachelor of Science with Honours (B.Sc. Hons.), Computer Science",
-        "items":[
-          {
-            "type":"subtitle",
-            "text":"Heriot-Watt University, Edinburgh. 2013 - 2015."
-          },{
-            "type":"par",
-            "text":"After my Associate Degree, I joined Heriot-Watt University which allowed me to deepen my knowledge in Artificial Intelligence, Language Processors, Computer Graphics, Lambda Calculus, Games Programming and more. In my final year I oriented my education towards Data management and visualisation, with courses like Data Mining, Machine Learning, Data Visualisation and Big Data Management."
-          },{
-            "type":"par",
-            "text":"This was also complemented with a group project in my third year, which won the Scott Logic Prize."
-          },{
-            "type":"par",
-            "text":"My honours dissertation was dedicated to create an web based interface for <a href='http://ggrov.github.io/tinker/'>Tinker</a>, a proof-strategy graphs editor."
-          }
-        ]
-      },{
-        "type":"subsec",
-        "title":"Associate Degree (DUT), Computer Software Engineering",
-        "items":[
-          {
-            "type":"subtitle",
-            "text":"Higher Institute of Technology (IUT), Nantes (France). 2011 - 2013."
-          },{
-            "type":"par",
-            "text":"A two year diploma that gave strong me strong bases in many aspects of Computer Science:"
-          },{
-            "type":"li",
-            "items":[
-              {
-                "type":"par",
-                "text":"Algorithmic, with ADA and C"
-              },{
-                "type":"par",
-                "text":"Object Oriented Programming, mainly with Java, and including: Conception / Specification (UML), Design Patterns and Testing"
-              },{
-                "type":"par",
-                "text":"Modelisation and formalisation, using the B Method"
-              },{
-                "type":"par",
-                "text":"Operating systems and architecture"
-              },{
-                "type":"par",
-                "text":"Web technologies (HTML, CSS, JavaScript, XML, PHP)"
-              },{
-                "type":"par",
-                "text":"Relational databases (MySQL)"
-              },{
-                "type":"par",
-                "text":"Networks and Security"
-              },{
-                "type":"par",
-                "text":"Mathematics for Computer Science (Logic, Sets, Statistics, Arithmetic, Graphs), using Python or OCaml in certain classes"
-              }
-            ]
-          },{
-            "type":"par",
-            "text":"These technical courses were complemented with introductory courses such as Communication, Economy, Accountability or Business Management, as  well as group projects. Finally these two years were concluded with a three month placement, which I did at <a href='https://www.dictanova.com/'>Dictanova</a>."
-          }
-        ]
-      }
-    ]
-  },{
-    "sectionTitle":"Work Experience",
-    "expandable": true,
-    "expanded": false,
-    "items":[
-      {
-        "type":"subsec",
-        "title":"Lab Assistant",
-        "items":[
-          {
-            "type":"subtitle",
-            "text":"Heriot-Watt University, Edinburgh. 2014 - present."
-          },{
-            "type":"par",
-            "text":"While pursuing my studies, I have assisted teachers during their lab sessions. I helped undergraduate and postgraduate computer-science students, by answering their questions and giving guidance for their projects. I also conducted tutorial sessions in building visualisations application in JavaScript and with D3.js."
-          }
-        ]
-      },{
-        "type":"subsec",
-        "title":"Research Intern",
-        "items":[
-          {
-            "type":"subtitle",
-            "text":"Heriot-Watt University, Edinburgh. Summers of 2014, 2015 and 2016."
-          },{
-            "type":"par",
-            "text":"As a student, I was given the opportunity to work in a research environment, improving the GUI of <a href='http://ggrov.github.io/tinker/'>Tinker</a>, a proof-strategy graphs editor. It broadened my programing language skills and my knowledge of formal verification. This led to a <a href='http://link.springer.com/chapter/10.1007/978-3-662-49674-9_37'>publication</a>."
-          }
-        ]
-      },{
-        "type":"subsec",
-        "title":"Front-End Development Intern",
-        "items":[
-          {
-            "type":"subtitle",
-            "text":"Dictanova, Nantes (France). April to June 2013."
-          },{
-            "type":"par",
-            "text":"As required for my Associate Degree, I joined <a href='https://www.dictanova.com/'>Dictanova</a>'s team for a three month placement, building new features for their user interface. This gave me the opportunity to deepen my knowledge of project and team management, as well as learn about technologies such as <i>Angular.js</i> or <i>D3.js</i>. This placement was at the origin of my interest for web technologies and data visualisation."
-          }
-        ]
-      }
-    ]
-  }
-]
+{
+  "type":"container",
+  "width":900,
+  "content":[
+    {
+      "type":"viz",
+      "viztype":"wordcloud",
+      "width":600,
+      "height":200,
+      "data":[
+        {"text":"JavaScript","size":10},
+        {"text":"Typescript","size":8},
+        {"text":"HTML","size":9},
+        {"text":"CSS","size":9},
+        {"text":"Scala","size":8},
+        {"text":"PHP","size":4},
+        {"text":"Java","size":8},
+        {"text":"Python","size":8},
+        {"text":"D3","size":10},
+        {"text":"Angular","size":7},
+        {"text":"Vue","size":7},
+        {"text":"Swing","size":5},
+        {"text":"Less","size":8},
+        {"text":"MySQL","size":4},
+        {"text":"MongoDB","size":4},
+        {"text":"Bootstrap","size":6},
+        {"text":"Git","size":5},
+        {"text":"Node","size":6},
+        {"text":"Gulp","size":6}
+      ]
+    },
+    {
+      "type":"viz",
+      "viztype":"timeline",
+      "width":700,
+      "height":200,
+      "data":[
+        {"name":"Associate Degree","location":"IUT Nantes","type":"Education","dates":[{"start":"09-2011", "end":"06-2013"}]},
+        {"name":"Bachelor of Science","location":"Heriot-Watt University","type":"Education","dates":[{"start":"09-2013", "end":"05-2015"}]},
+        {"name":"Doctor of Philosophy","location":"Heriot-Watt University","type":"Education","dates":[{"start":"09-2015", "end":"09-2018"}]},
+        {"name":"Front-End Development Intern","location":"Dictanova","type":"Work","dates":[{"start":"04-2013", "end":"06-2013"}]},
+        {"name":"Research Intern","location":"Heriot-Watt University","type":"Work","dates":[{"start":"06-2014", "end":"08-2014"},{"start":"06-2015", "end":"08-2015"},{"start":"06-2016", "end":"08-2016"}]},
+        {"name":"Lab Assistant","location":"Heriot-Watt University","type":"Work","dates":[{"start":"01-2015", "end":"05-2015"},{"start":"09-2015", "end":"05-2016"},{"start":"09-2016", "end":"05-2017"},{"start":"09-2017", "end":"12-2017"}]},
+        {"name":"Tinker","location":"Heriot-Watt University","type":"Project","dates":[{"start":"06-2014", "end":"08-2015"},{"start":"06-2016", "end":"08-2016"}]},
+        {"name":"9 Years of EU and UK Research","location":"Heriot-Watt University","type":"Project","dates":[{"start":"09-2016", "end":"12-2016"}]}
+      ]
+    },
+    {
+      "type": "container",
+      "title": "Education",
+      "content":[
+        {
+          "type": "container",
+          "subtitle": "Candidate for the degree of Doctor of Philosophy (Ph.D.), Computer Science",
+          "content": [
+            {
+              "type":"subtitle",
+              "text":"Heriot-Watt University, Edinburgh. 2015 - present."
+            },{
+              "type":"par",
+              "text":"Following my interest in Data Science and HCI, I started a Ph.D. in Data Visualisation and Analytics at the <a href='http://strategicfutures.org/' target='blank'>Strategic Futures Laboratory</a> (formerly <a href='http://www.macs.hw.ac.uk/texturelab/' target='blank'>TextureLab</a>) of Heriot-Watt University."
+            },{
+              "type": "par",
+              "text": "My research is focused on automated concept map visualisations, and their impact on user confidence. In particular I have implemented and analysed the effects of data-driven explanations when used to improve user confidence. My investigations led me to draw out confidence-driven usability recommendations."
+            },{
+              "type":"par",
+              "text":"I was awarded the <i>James Watt Scholarship</i> to fund this studentship."
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "subtitle": "Bachelor of Science with Honours (B.Sc. Hons.), Computer Science",
+          "content": [
+            {
+              "type":"subtitle",
+              "text":"Heriot-Watt University, Edinburgh. 2013 - 2015."
+            },{
+              "type":"par",
+              "text":"After my Associate Degree, I joined Heriot-Watt University which allowed me to deepen my knowledge in Artificial Intelligence, Language Processors, Computer Graphics, Lambda Calculus, Games Programming and more. In my final year I oriented my education towards Data management and visualisation, with courses like Data Mining, Machine Learning, Data Visualisation and Big Data Management."
+            },{
+              "type":"par",
+              "text":"This was also complemented with a group project in my third year, which won the Scott Logic Prize."
+            },{
+              "type":"par",
+              "text":"My honours dissertation was dedicated to create an web based interface for <a href='http://ggrov.github.io/tinker/' target='blank'>Tinker</a>, a proof-strategy graphs editor."
+            }
+          ]
+        },
+        {
+          "type":"container",
+          "subtitle":"Associate Degree (DUT), Computer Software Engineering",
+          "content":[
+            {
+              "type":"subtitle",
+              "text":"Higher Institute of Technology (IUT), Nantes (France). 2011 - 2013."
+            },{
+              "type":"par",
+              "text":"A two year diploma that gave strong me strong bases in many aspects of Computer Science:"
+            },{
+              "type":"ul",
+              "content":[
+                {
+                  "type":"par",
+                  "text":"Algorithmic, with ADA and C"
+                },{
+                  "type":"par",
+                  "text":"Object Oriented Programming, mainly with Java, and including: Conception / Specification (UML), Design Patterns and Testing"
+                },{
+                  "type":"par",
+                  "text":"Modelisation and formalisation, using the B Method"
+                },{
+                  "type":"par",
+                  "text":"Operating systems and architecture"
+                },{
+                  "type":"par",
+                  "text":"Web technologies (HTML, CSS, JavaScript, XML, PHP)"
+                },{
+                  "type":"par",
+                  "text":"Relational databases (MySQL)"
+                },{
+                  "type":"par",
+                  "text":"Networks and Security"
+                },{
+                  "type":"par",
+                  "text":"Mathematics for Computer Science (Logic, Sets, Statistics, Arithmetic, Graphs), using Python or OCaml in certain classes"
+                }
+              ]
+            },{
+              "type":"par",
+              "text":"These technical courses were complemented with introductory courses such as Communication, Economy, Accountability or Business Management, as  well as group projects. Finally these two years were concluded with a three month placement, which I did at <a href='https://www.dictanova.com/' target='blank'>Dictanova</a>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type":"container",
+      "title":"Work Experience",
+      "content":[
+        {
+          "type":"container",
+          "subtitle":"Lab Assistant",
+          "content":[
+            {
+              "type":"subtitle",
+              "text":"Heriot-Watt University, Edinburgh. 2014 - 2017."
+            },{
+              "type":"par",
+              "text":"While pursuing my studies, I have assisted teachers during their lab sessions. I helped undergraduate and postgraduate computer-science students, by answering their questions and giving guidance for their projects. I also conducted tutorial sessions in building visualisations application in JavaScript and with D3.js."
+            }
+          ]
+        },
+        {
+          "type":"container",
+          "subtitle":"Research Intern",
+          "content":[
+            {
+              "type":"subtitle",
+              "text":"Heriot-Watt University, Edinburgh. Summers of 2014, 2015 and 2016."
+            },{
+              "type":"par",
+              "text":"As a student, I was given the opportunity to work in a research environment, improving the GUI of <a href='http://ggrov.github.io/tinker/' target='blank'>Tinker</a>, a proof-strategy graphs editor. It broadened my programing language skills and my knowledge of formal verification. This led to a <a href='http://link.springer.com/chapter/10.1007/978-3-662-49674-9_37'>publication</a>."
+            }
+          ]
+        },
+        {
+          "type":"container",
+          "subtitle":"Front-End Development Intern",
+          "content": "<p class='subtitle'>Dictanova, Nantes (France). April to June 2013.</p><p>As required for my Associate Degree, I joined <a href='https://www.dictanova.com/' target='blank'>Dictanova</a>'s team for a three month placement, building new features for their user interface. This gave me the opportunity to deepen my knowledge of project and team management, as well as learn about technologies such as <i>Angular.js</i> or <i>D3.js</i>. This placement was at the origin of my interest for web technologies and data visualisation.</p>"
+        }
+      ]
+    }
+  ]
+}

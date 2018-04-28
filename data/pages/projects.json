@@ -1,6 +1,5 @@
-[
-  {
-    "sectionTitle":"Page under construction",
-    "items":[]
-  }
-]
+{
+  "type": "container",
+  "subtitle": "Page under construction",
+  "content":[]
+}

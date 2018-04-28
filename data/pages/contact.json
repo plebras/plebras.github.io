@@ -1,6 +1,68 @@
-[
-  {
-    "sectionTitle":"Page under construction",
-    "items":[]
-  }
-]
+{
+  "type":"container",
+  "content":[
+    {
+      "type": "container",
+      "subtitle": "You can contact me ...",
+      "content": [
+        {
+          "type": "container",
+          "arrangement": "row",
+          "content": [
+            {
+              "type": "par",
+              "text": "<i class='huge colored fa fa-linkedin-square'></i>"
+            },
+            {
+              "type": "par",
+              "text": "<p>on LinkedIn: <a href='http://www.linkedin.com/in/plebras' target='blank'>linkedin.com/in/plebras</a>"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "arrangement": "row",
+          "content": [
+            {
+              "type": "par",
+              "text": "<i class='huge colored fa fa-github-square'></i>"
+            },
+            {
+              "type": "par",
+              "text": "<p>on GitHub: <a href='http://www.github.com/plebras' target='blank'>github.com/plebras</a>"
+            }
+          ]
+        },
+        {
+          "type": "container",
+          "arrangement": "row",
+          "content": [
+            {
+              "type": "par",
+              "text": "<i class='huge colored fa fa-twitter-square'></i>"
+            },
+            {
+              "type": "par",
+              "text": "<p>on Twitter: <a href='https://twitter.com/Pierre_LeBras' target='blank'>@Pierre_LeBras</a>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+     "type":"container",
+      "subtitle":"You can also ...",
+      "content":[
+        {
+          "type":"ul",
+          "content":[
+            {
+              "type":"par",
+              "text":"visit the Strategic Futures Laboratory website: <a href='http://strategicfutures.org' target='blank'>strategicfutures.org</a>."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,16 +1,18 @@
-[
-  {
-  "sectionTitle":"",
-  "expandable": false,
-  "expanded": false,
-  "items":[
+{
+  "type":"container",
+  "arrangement":"row",
+  "content":[
     {
-      "type":"par",
-      "text":"I am a researcher currently finishing my Ph.D. in Computer Science at Heriot-Watt University, in Edinburgh, Scotland."
+      "type":"img",
+      "src":"data/img/v2.png",
+      "alt":"",
+      "width":200,
+      "borderRad":60
     },
     {
-      "type": "par",
-      "text": "My research interests are a mixture of Data Science, Human-Computer Interaction, and Machine Learning. In particular, I investigates user confidence and trust in automated systems, i.e. explainable AI. My Ph.D. research focused on user confidence in automated concept map visualisation."
+      "type": "container",
+      "width": 500,
+      "content": "<p>I am a researcher currently finishing my Ph.D. in Computer Science at Heriot-Watt University, in Edinburgh, Scotland.</p><p>My research interests are a mixture of Data Science, Human-Computer Interaction, and Machine Learning. In particular, I investigates user confidence and trust in automated systems, i.e. explainable AI. My Ph.D. research focused on user confidence in automated concept map visualisation.</p>"
     }
-  ]}
-]
+  ]
+}
