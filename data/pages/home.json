@@ -12,7 +12,7 @@
     {
       "type": "container",
       "width": 500,
-      "content": "<p>I am a researcher currently finishing my Ph.D. in Computer Science at Heriot-Watt University, in Edinburgh, Scotland.</p><p>My research interests are a mixture of Data Science, Human-Computer Interaction, and Machine Learning. In particular, I investigates user confidence and trust in automated systems, i.e. explainable AI. My Ph.D. research focused on user confidence in automated concept map visualisation.</p>"
+      "content": "<p>I am a Research Associate working at the <a href='http://macs.hw.ac.uk' target='blank'>School of Mathematical and Computer Sciences</a>, within the <a href='http://strategicfutures.org' target='blank'>Strategic Futures Laboratory</a>, at Heriot-Watt University, in Edinburgh, Scotland.</p><p>My research interests are a mixture of Data Science, Human-Computer Interaction, and Machine Learning. In particular, I investigates user confidence and trust in automated systems, i.e. explainable AI. My Ph.D. research focused on user confidence in automated Topic Map visualisations.</p>"
     }
   ]
 }
