@@ -31,6 +31,21 @@
     },
     {
       "type":"viz",
+      "viztype":"wordcloud",
+      "width":600,
+      "height":200,
+      "data":[
+        {"text":"Data Visualisation","size":10},
+        {"text":"ML","size":5},
+        {"text":"User Confidence","size":9},
+        {"text":"HCI","size":9},
+        {"text":"Qualitative research","size":8},
+        {"text":"Quantitative research","size":5},
+        {"text":"Interview","size":8}
+      ]
+    },
+    {
+      "type":"viz",
       "viztype":"timeline",
       "width":700,
       "height":200,
@@ -42,7 +57,8 @@
         {"name":"Research Intern","location":"Heriot-Watt University","type":"Work","dates":[{"start":"06-2014", "end":"08-2014"},{"start":"06-2015", "end":"08-2015"},{"start":"06-2016", "end":"08-2016"}]},
         {"name":"Lab Assistant","location":"Heriot-Watt University","type":"Work","dates":[{"start":"01-2015", "end":"05-2015"},{"start":"09-2015", "end":"05-2016"},{"start":"09-2016", "end":"05-2017"},{"start":"09-2017", "end":"12-2017"}]},
         {"name":"Tinker","location":"Heriot-Watt University","type":"Project","dates":[{"start":"06-2014", "end":"08-2015"},{"start":"06-2016", "end":"08-2016"}]},
-        {"name":"9 Years of EU and UK Research","location":"Heriot-Watt University","type":"Project","dates":[{"start":"09-2016", "end":"12-2016"}]}
+        {"name":"9 Years of EU and UK Research","location":"Heriot-Watt University","type":"Project","dates":[{"start":"09-2016", "end":"12-2016"}]},
+        {"name":"ORCA Hub","location":"Heriot-Watt University","type":"Project","dates":[{"start":"09-2018", "end":"12-2018"}]}
       ]
     },
     {
