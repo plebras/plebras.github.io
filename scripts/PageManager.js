@@ -217,6 +217,7 @@ var PageManager = function () {
                                 cont.classed("row", true);
                             }
                             if (itemData.title) {
+                                cont.classed('section', true)
                                 cont.append('h2').html(itemData.title);
                                 cont.append('hr');
                             }

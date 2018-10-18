@@ -8,6 +8,21 @@
       "width":600,
       "height":200,
       "data":[
+        {"text":"Data Visualisation","size":10},
+        {"text":"Machine Learning","size":5},
+        {"text":"User Confidence","size":9},
+        {"text":"Human-Computer Interaction","size":9},
+        {"text":"Qualitative research","size":8},
+        {"text":"Quantitative research","size":5},
+        {"text":"Interview","size":8}
+      ]
+    },
+    {
+      "type":"viz",
+      "viztype":"wordcloud",
+      "width":600,
+      "height":200,
+      "data":[
         {"text":"JavaScript","size":10},
         {"text":"Typescript","size":8},
         {"text":"HTML","size":9},
@@ -27,21 +42,6 @@
         {"text":"Git","size":5},
         {"text":"Node","size":6},
         {"text":"Gulp","size":6}
-      ]
-    },
-    {
-      "type":"viz",
-      "viztype":"wordcloud",
-      "width":600,
-      "height":200,
-      "data":[
-        {"text":"Data Visualisation","size":10},
-        {"text":"Machine Learning","size":5},
-        {"text":"User Confidence","size":9},
-        {"text":"Human-Computer Interaction","size":9},
-        {"text":"Qualitative research","size":8},
-        {"text":"Quantitative research","size":5},
-        {"text":"Interview","size":8}
       ]
     },
     {
@@ -155,6 +155,32 @@
       "type":"container",
       "title":"Work Experience",
       "content":[
+        {
+          "type":"container",
+          "subtitle":"Research Associate",
+          "content":[
+            {
+              "type":"subtitle",
+              "text":"Heriot-Watt University, Edinburgh. 2018 - present."
+            },{
+              "type":"par",
+              "text":"Following the completion of my studies, I have joined the <a href='https://orcahub.org/' target='blank'>ORCA Hub</a> project. I am working in the Human-Robot Interaction and Explainable AI work package, investigating the visualisation and interactive explanation of automated planning."
+            }
+          ]
+        },
+        {
+          "type":"container",
+          "subtitle":"Research Student",
+          "content":[
+            {
+              "type":"subtitle",
+              "text":"Heriot-Watt University, Edinburgh. 2015 - 2018."
+            },{
+              "type":"par",
+              "text":"As a research student (during my Ph.D.), I have assited the <a href='http://strategicfutures.org/' target='blank'>Strategic Futures Laboratory</a> in many of their research projects. I have mainly contributed to the Topic Mapping work, e.g. by implementing the Agglomerative Layout Method, or producing the <a href='http://strategicfutures.org/hexmaps/ukeutopics/2017-01/app/' target='blank'>9 Years of UK and EU Research</a> map."
+            }
+          ]
+        },
         {
           "type":"container",
           "subtitle":"Lab Assistant",

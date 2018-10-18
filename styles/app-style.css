@@ -114,9 +114,10 @@ ul.nav-tabs li.active:hover {
   background-color: #ffffff;
 }
 div.page-content {
-  max-width: 100%;
+  width: 100%;
   margin: 20px 0px;
-  padding: 0px 0px;
+  padding: 0px 20px;
+  border-left: 4px #448878 solid;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -201,7 +202,16 @@ div.page-content p.subtitle {
 div.page-content ul {
   padding: 5px;
   margin-left: 30px;
-  list-style: square;
+  list-style: none;
+}
+div.page-content ul li {
+  /* margin-left: 5px; */
+  display: flex;
+}
+div.page-content ul li::before {
+  content: "■";
+  /* margin-right: 12px; */
+  color: #448878;
 }
 div.page-content ul li p {
   padding: 2px 10px;
@@ -283,6 +293,9 @@ div.page-content div.section a:hover {
   color: #33665a;
 }
 div.page-content div.section div.subsection {
+  padding: 10px 0px;
+}
+div.page-content div.subsection {
   padding: 10px 0px;
 }
 div.viz-tooltip {
