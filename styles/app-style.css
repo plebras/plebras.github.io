@@ -33,6 +33,18 @@ header h1 {
   color: #f0f0f0;
   font-size: 2em;
 }
+footer{
+  border-top: 1px #448878 solid;
+  padding: 10px 0px;
+}
+footer a {
+  text-decoration: none;
+  color: #448878;
+}
+footer a:hover {
+  text-decoration: underline;
+  color: #33665a;
+}
 div#body {
   padding-right: 15px;
   padding-left: 15px;
