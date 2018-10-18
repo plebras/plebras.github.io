@@ -413,7 +413,16 @@ var Timeline = function () {
             var dates = [];
             data.forEach(function (d) {
                 d.dates.forEach(function (date) {
-                    dates.push(date.start);dates.push(date.end);
+                    dates.push(date.start);
+                    if(date.end === 'now'){
+                        let today = new Date(),
+                            mm = today.getMonth()+1,
+                            yyyy = today.getFullYear();
+                        if(mm<10){mm = `0${mm}`}
+                        return dates.push(`${mm}-${yyyy}`);
+                    }else{
+                        dates.push(date.end);
+                    }
                 });
             });
             var ts = new TimeScale(dates);
@@ -441,7 +450,15 @@ var Timeline = function () {
             this.lines.selectAll('line').attr('x1', function (d) {
                 return horizontalScale(ts.scale(d.start));
             }).attr('x2', function (d) {
-                return horizontalScale(ts.scale(d.end));
+                if(d.end === 'now'){
+                    let today = new Date(),
+                        mm = today.getMonth()+1,
+                        yyyy = today.getFullYear();
+                    if(mm<10){mm = `0${mm}`}
+                    return horizontalScale(ts.scale(`${mm}-${yyyy}`));
+                }else{
+                    return horizontalScale(ts.scale(d.end));
+                }
             }).attr('y1', 0).attr('y2', 0).attr('stroke-width', '6px').attr('stroke', function () {
                 return colorScale(d3.select(this.parentNode).datum().type);
             }).attr('stroke-linecap', 'round').attr('stroke-opacity', 0.7);
@@ -573,9 +590,9 @@ var Wordcloud = function () {
         value: function makeCloud(data) {
             var _this = this;
 
-            var textScale = d3.scaleLinear().domain(d3.extent(data, function (d) {
+            var textScale = d3.scaleLinear().domain([1,d3.max(data, function (d) {
                 return d.size;
-            })).range([15, 30]);
+            })]).range([15, 30]);
 
             var draw = function draw(words) {
 
