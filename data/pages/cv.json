@@ -30,7 +30,7 @@
         {"text":"Scala","size":8},
         {"text":"PHP","size":4},
         {"text":"Java","size":8},
-        {"text":"Python","size":8},
+        {"text":"Python","size":9},
         {"text":"D3","size":10},
         {"text":"Angular","size":7},
         {"text":"Vue","size":7},
@@ -47,12 +47,12 @@
     {
       "type":"viz",
       "viztype":"timeline",
-      "width":700,
+      "width":800,
       "height":200,
       "data":[
         {"name":"Associate Degree","location":"IUT Nantes","type":"Education","dates":[{"start":"09-2011", "end":"06-2013"}]},
         {"name":"Bachelor of Science","location":"Heriot-Watt University","type":"Education","dates":[{"start":"09-2013", "end":"05-2015"}]},
-        {"name":"Doctor of Philosophy","location":"Heriot-Watt University","type":"Education","dates":[{"start":"09-2015", "end":"now"}]},
+        {"name":"Doctor of Philosophy","location":"Heriot-Watt University","type":"Education","dates":[{"start":"09-2015", "end":"02-2019"}]},
         {"name":"Front-End Development Intern","location":"Dictanova","type":"Work","dates":[{"start":"04-2013", "end":"06-2013"}]},
         {"name":"Research Intern","location":"Heriot-Watt University","type":"Work","dates":[{"start":"06-2014", "end":"08-2014"},{"start":"06-2015", "end":"08-2015"},{"start":"06-2016", "end":"08-2016"}]},
         {"name":"Lab Assistant","location":"Heriot-Watt University","type":"Work","dates":[{"start":"01-2015", "end":"05-2015"},{"start":"09-2015", "end":"05-2016"},{"start":"09-2016", "end":"05-2017"},{"start":"09-2017", "end":"12-2017"}]},
@@ -68,17 +68,17 @@
       "content":[
         {
           "type": "container",
-          "subtitle": "Candidate for the degree of Doctor of Philosophy (Ph.D.), Computer Science",
+          "subtitle": "Doctor of Philosophy (Ph.D.), Computer Science",
           "content": [
             {
               "type":"subtitle",
-              "text":"Heriot-Watt University, Edinburgh. 2015 - present."
+              "text":"Heriot-Watt University, Edinburgh. 2015 - 2019."
             },{
               "type":"par",
-              "text":"Following my interest in Data Science and HCI, I started a Ph.D. in Data Visualisation and Analytics at the <a href='http://strategicfutures.org/' target='blank'>Strategic Futures Laboratory</a> (formerly <a href='http://www.macs.hw.ac.uk/texturelab/' target='blank'>TextureLab</a>) of Heriot-Watt University."
+              "text":"Following my interest in Data Science and HCI, I did a Ph.D. in Data Visualisation and Analytics at the <a href='http://strategicfutures.org/' target='blank'>Strategic Futures Laboratory</a> (formerly <a href='http://www.macs.hw.ac.uk/texturelab/' target='blank'>TextureLab</a>) of Heriot-Watt University."
             },{
               "type": "par",
-              "text": "My research is focused on automated concept map visualisations, and their impact on user confidence. In particular I have implemented and analysed the effects of data-driven explanations when used to improve user confidence. My investigations led me to draw out confidence-driven usability recommendations."
+              "text": "My thesis focuses on automated Topic Map visualisations, and their impact on user confidence. In particular, I implemented and analysed the effects of data-driven explanations when used to improve user confidence. I also observed the effects of layout characteristics, as well as algorithm features on the user's confidence of interpretation."
             },{
               "type":"par",
               "text":"I was awarded the <i>James Watt Scholarship</i> to fund this studentship."
