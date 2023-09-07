@@ -1,0 +1,131 @@
+{
+	"name": "skills",
+	"children": [
+		{
+			"name": "Programmer",
+			"children": [
+				{
+					"name": "Databases",
+					"children": [
+						{ "name": "MySQL", "value": 1 },
+						{ "name": "MongoDB", "value": 1 }
+					]
+				},
+				{
+					"name": "Languages",
+					"children": [
+						{ "name": "Python", "value": 9 },
+						{ "name": "Scala", "value": 5 },
+						{ "name": "Java", "value": 5 }
+					]
+				},
+				{
+					"name": "Web",
+					"children": [
+						{ "name": "JavaScript", "value": 10 },
+						{ "name": "Typescript", "value": 3 },
+						{ "name": "Angular", "value": 2 },
+						{ "name": "Vue", "value": 2 },
+						{ "name": "SvelteKit", "value": 2 },
+						{ "name": "Node", "value": 5 }
+					]
+				}
+			]
+		},
+		{
+			"name": "Engineer",
+			"children": [
+				{
+					"name": "Versioning",
+					"children": [{ "name": "Git", "value": 6 }]
+				},
+				{
+					"name": "Reusability",
+					"children": [
+						{ "name": "Modular Prog", "value": 4 },
+						{ "name": "Object Prog", "value": 4 },
+						{ "name": "Functional Prog", "value": 4 },
+						{ "name": "Design Patterns", "value": 3 }
+					]
+				},
+				{
+					"name": "Verification",
+					"children": [
+						{ "name": "Method B", "value": 1 },
+						{ "name": "Spin", "value": 1 }
+					]
+				},
+				{
+					"name": "Testing",
+					"children": [
+						{ "name": "JUnit", "value": 1 },
+						{ "name": "Karma", "value": 1 }
+					]
+				},
+				{
+					"name": "Build",
+					"children": [
+						{ "name": "Gulp, Grunt", "value": 2 },
+						{ "name": "ESBuild", "value": 1 },
+						{ "name": "Rollup", "value": 2 },
+						{ "name": "Vite", "value": 2 }
+					]
+				}
+			]
+		},
+		{
+			"name": "Designer",
+			"children": [
+				{
+					"name": "UI/UX",
+					"children": [
+						{ "name": "Bootstrap", "value": 3 },
+						{ "name": "HTML", "value": 8 },
+						{ "name": "CSS", "value": 8 },
+						{ "name": "JQuery", "value": 2 },
+						{ "name": "VanillaJS", "value": 8 }
+					]
+				},
+				{
+					"name": "Visualisation",
+					"children": [
+						{ "name": "D3", "value": 10 },
+						{ "name": "Plots", "value": 4 }
+					]
+				}
+			]
+		},
+		{
+			"name": "Researcher",
+			"children": [
+				{
+					"name": "HCI",
+					"children": [
+						{ "name": "Info-Viz", "value": 10 },
+						{ "name": "User Confidence", "value": 5 },
+						{ "name": "Explanation", "value": 5 }
+					]
+				},
+				{
+					"name": "User Studies",
+					"children": [
+						{ "name": "Interview", "value": 5 },
+						{ "name": "Task", "value": 3 },
+						{ "name": "Qualitative", "value": 5 },
+						{ "name": "Quantitative", "value": 3 }
+					]
+				},
+				{
+					"name": "Machine Learning",
+					"children": [
+						{ "name": "Topic Modelling", "value": 4 },
+						{ "name": "Projection", "value": 4 },
+						{ "name": "Clustering", "value": 4 },
+						{ "name": "Jupyter", "value": 3 },
+						{ "name": "Observable", "value": 3 }
+					]
+				}
+			]
+		}
+	]
+}
