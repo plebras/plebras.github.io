@@ -12,7 +12,6 @@
 		{ path: basePath + '/cv', title: 'CV' },
 		{ path: basePath + '/contact', title: 'Contact' }
 	];
-    
 </script>
 
 <header>
