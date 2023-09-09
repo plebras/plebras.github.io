@@ -1,0 +1,85 @@
+[
+	{
+		"date": "2015-05",
+		"title": "Web-Based Interface for Graphical Proof Strategies",
+		"authors": "Pierre Le Bras",
+		"notes": "Honours Dissertation. Heriot-Watt University."
+	},
+	{
+		"date": "2016-04",
+		"title": "Developing and Debugging Proof Strategies by Tinkering",
+		"authors": "Yuhui Lin, Pierre Le Bras, and Gudmund Grov",
+		"notes": "TACAS 2016: International Conference on Tools and Algorithms for the Construction and Analysis of Systems. Springer.",
+		"url": "http://link.springer.com/chapter/10.1007/978-3-662-49674-9_37"
+	},
+	{
+		"date": "2016-12",
+		"title": "The Tinker GUI for graphical proof strategies (tool demo)",
+		"authors": "Gudmund Grov, Yuhui Lin, Pierre Le Bras",
+		"notes": "F-IDE 16: Third Workshop on Formal Integrated Development Environment. Open Publishing Association.",
+		"url": "https://researchportal.hw.ac.uk/en/publications/the-tinker-gui-for-graphical-proof-strategies-tool-demo"
+	},
+	{
+		"date": "2018-05",
+		"title": "Improving User Confidence in Concept Maps: Exploring Data-Driven Explanations",
+		"authors": "Pierre Le Bras, David A. Robb, Thomas S. Methven, Stefano Padilla, Mike J. Chantler",
+		"notes": "CHI 18: 2018 CHI Conference on Human Factors in Computing Systems. ACM.",
+		"url": "https://dl.acm.org/doi/10.1145/3173574.3173978"
+	},
+	{
+		"date": "2018-06",
+		"title": "Issues Affecting User Confidence in Explanation Systems",
+		"authors": "David A. Robb, Stefano Padilla, Thomas S. Methven, Yibo Liang, Pierre Le Bras, Tanya Howden, Azimeh Gharavi, Mike J. Chantler, and Ioannis Chalkiadakis",
+		"notes": "ReaLX 2018: The SICSA Reasoning, Learning and Explainability Workshop. CEUR Workshop Proceedings.",
+		"url": "http://ceur-ws.org/Vol-2151/Paper_S7.pdf"
+	},
+	{
+		"date": "2019-03",
+		"title": "Automated Strategic Visualisations and User Confidence",
+		"authors": "Pierre Le Bras",
+		"notes": "Doctoral Thesis. Heriot-Watt University.",
+		"url": "https://www.researchgate.net/publication/332607778_Automated_Strategic_Visualisations_and_User_Confidence"
+	},
+	{
+		"date": "2019-05",
+		"title": "Challenges in Collaborative HRI for Remote Robot Teams",
+		"authors": "Helen Hastie, David A. Robb, José Lopes, Muneeb Ahmad, Pierre Le Bras, Xingkun Liu, Ronald P. A. Petrick, Katrin Lohan, Mike J. Chantler",
+		"notes": "SIRCHI 2019: CHI 2019 Workshop on The Challenges of Working on Social Robots that Collaborate with People.",
+		"url": "https://arxiv.org/abs/1905.07379"
+	},
+	{
+		"date": "2020-05",
+		"title": "Visualising COVID-19 Research",
+		"authors": "Pierre Le Bras, Azimeh Gharavi, David A. Robb, Ana F. Vidal, Stefano Padilla, Mike J. Chantler",
+		"notes": "Pre-print.",
+		"url": "https://arxiv.org/abs/2005.06380"
+	},
+	{
+		"date": "2020-10",
+		"title": "PlanCurves: An Interface for End-Users to Visualise Multi-Agent Temporal Plans",
+		"authors": "Pierre Le Bras, Yaniel Carreno, Alan Lindsay, Ronald P. A. Petrick, MIke J. Chantler",
+		"notes": "ICAPS 2020 Workshop on Knowledge Engineering for Planning and Scheduling (KEPS 2020).",
+		"url": "https://icaps20subpages.icaps-conference.org/wp-content/uploads/2020/10/KEPS-2020_paper_7.pdf"
+	},
+	{
+		"date": "2020-10",
+		"title": "PlanCurves: A Visualization Interface for Multi-Agent Temporal Plans (Tool Demonstration)",
+		"authors": "Pierre Le Bras, Yaniel Carreno, Ronald P. A. Petrick, MIke J. Chantler",
+		"notes": "ICAPS 2020: 30th International Conference on Automated Planning and Scheduling.",
+		"url": "https://icaps20subpages.icaps-conference.org/wp-content/uploads/2020/10/ICAPS_2020_paper_304.pdf"
+	},
+	{
+		"date": "2021-02",
+		"title": "Enhancing Reading Strategies by Exploring A Theme-based Approach to Literature Surveys",
+		"authors": "Tanya Howden, Pierre Le Bras, Thomas S. Methven, Stefano Padilla, Mike J. Chantler",
+		"notes": "Pre-print.",
+		"url": "https://arxiv.org/abs/2102.05374"
+	},
+	{
+		"date": "2021-08",
+		"title": "An Integrated Framework for Remote Planning",
+		"authors": "Yaniel Carreno, Pierre Le Bras, Èric Pairet Artau, Paola Ardón Ramirez, Mike J. Chantler, Ron P. A. Petrick",
+		"notes": "ICAPS 2021 Workshop on Integrated Planning, Acting, and Execution (IntEx 2021).",
+		"url": "https://www.researchgate.net/publication/355585700_An_Integrated_Framework_for_Remote_Planning"
+	}
+]
