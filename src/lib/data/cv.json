@@ -1,0 +1,205 @@
+[
+	{
+		"rubric": "Teaching Experience",
+		"order": 3,
+		"entries": [
+			{
+				"date": "2023-08",
+				"dateString": "2021 and 2022",
+				"title": "Foundations of Software Design and Development",
+				"subtitle": "(Course)",
+				"place": "Edinburgh Napier University - Edinburgh, UK",
+				"description": "This course taught first year Computing students the fundamentals of algorithmic and software design in Java."
+			},
+			{
+				"date": "2023-08",
+				"dateString": "2022 and 2023",
+				"title": "Interactive Data Visualisations",
+				"subtitle": "(Course)",
+				"place": "Edinburgh Napier University - Edinburgh, UK",
+				"description": "This course taught Data Science students the theories behind visualising data and using interaction to handle complexity. Knowledge is put into practice with the development of interactive data visualisation dashboards with D3."
+			},
+			{
+				"date": "2023-08",
+				"dateString": "2021 and 2022",
+				"title": "Information Systems Engineering",
+				"subtitle": "(Course)",
+				"place": "Edinburgh Napier University - Edinburgh, UK",
+				"description": "This course taught master Computing students the principles of analysis, modelling, inplementation of software systems from a set of requirements."
+			},
+			{
+				"date": "2023-08",
+				"dateString": "2022 and 2023",
+				"title": "Data Analytics",
+				"subtitle": "(Course - Blended)",
+				"place": "Edinburgh Napier University - Edinburgh, UK",
+				"description": "This course taught master Data Science students the fundamentals of cleaning, mining, and visualising data for analysis."
+			},
+			{
+				"date": "2023-08",
+				"dateString": "2022 and 2023",
+				"title": "Data Management and Processing",
+				"subtitle": "(Course - Online)",
+				"place": "Edinburgh Napier University - Edinburgh, UK",
+				"description": "This course taught master Data Engineering students the development of robust and scalable data processing pipelines."
+			},
+			{
+				"date": "2022-01",
+				"dateString": "2021 and 2022",
+				"title": "Data Cleaning",
+				"subtitle": "(Invited Lecture)",
+				"place": "Edinburgh Napier University - Edinburgh, UK",
+				"description": "Part of the Professional Learning Programme for Colleges (organised by the Edinburgh Data-Driven Innovation (DDI) City Deal project), this session exposed Edinburgh Colleges' staff to the principles of data cleaning and data quality, followed by a practical demonstration with Open Refine."
+			},
+			{
+				"date": "2020-10",
+				"dateString": "2020",
+				"title": "Document Preparation and Tools",
+				"subtitle": "(Invited Lecture)",
+				"place": "Heriot-Watt University - Edinburgh, UK",
+				"description": "Building from my experience with previous years, I gave a lecture to Honours student on preparing their dissertation, also giving them a basic introduction on writing it with LaTeX."
+			},
+			{
+				"date": "2020-03",
+				"dateString": "2015 to 2017 and 2020",
+				"title": "Lab Helping",
+				"place": "Heriot-Watt University - Edinburgh, UK",
+				"description": "Over 7 semesters, I have helped lecturers in lab sessions for the following courses: Data Visualisation and Analytics, Language Processors, Programming Languages, and Web Design. I would also supervise some of those sessions at later dates."
+			},
+			{
+				"date": "2020-02",
+				"dateString": "2020",
+				"title": "Introduction to Topic Models",
+				"subtitle": "(Invited Lecture)",
+				"place": "Heriot-Watt University - Edinburgh, UK",
+				"description": "As part of the Data Visualisation and Analytics course, I gave a lecture on topic modelling, the mechanisms behind it, the data generated, its analyses and visualisations."
+			},
+			{
+				"date": "2019-10",
+				"dateString": "2018 and 2019",
+				"title": "Dissertation Writing with LaTeX",
+				"subtitle": "(Tutorial)",
+				"place": "Heriot-Watt University - Edinburgh, UK",
+				"description": "During a series of tutorials preparing honours students to their dissertation, I introduced and demonstrated the use of LaTeX."
+			},
+			{
+				"date": "2017-11",
+				"dateString": "2017",
+				"title": "Building a JavaScript MVC Architecture",
+				"subtitle": "(Tutorial)",
+				"place": "Heriot-Watt University - Edinburgh, UK",
+				"description": "As part of the Data Visualisation and Analytics course, I demonstrated to students how to implement a simple MVC architecture in JavaScript for a visualisation dashboard with D3.js."
+			},
+			{
+				"date": "2017-10",
+				"dateString": "2017",
+				"title": "D3 and JavaScript Patterns",
+				"subtitle": "(Q&A Session)",
+				"place": "Heriot-Watt University - Edinburgh, UK",
+				"description": "As part of the Data Visualisation and Analytics course, I conducted a Q&A session on D3 and JavaScript with students, during which I explored D3's general update and JavaScript's module factory patterns."
+			}
+		]
+	},
+	{
+		"rubric": "Work Experience",
+		"order": 1,
+		"entries": [
+			{
+				"date": "2023-12",
+				"dateString": "Since September 2023",
+				"title": "Assistant Professor in Computer Science",
+				"place": "Heriot-Watt University - Edinburgh, UK",
+				"description": ""
+			},
+			{
+				"date": "2023-08",
+				"dateString": "2021 to 2023",
+				"title": "Lecturer in Data Science and Software Engineering",
+				"place": "Edinburgh Napier University - Edinburgh, UK",
+				"description": "I have taught several Computing courses across many levels: Foundations of Software Design and Development (UG year 1), Interactive Data Visualisations (UG year 3/Graduate Apprenticeship year 3), Information Systems Engineering (PG/PG Online), Data Analytics (PG Blended), and Data Management and Processing (PG Online). I also supervise Honours and Masters Dissertation projects, with a keen interest in Data Science related projects. <br/> I also was the Leader for the BSc (Hons) Games Development and BSc (Hons) Data Science programmes, and the Computer Science subject Academic Integrity Officer."
+			},
+			{
+				"date": "2021-08",
+				"dateString": "2018 to 2021",
+				"title": "Research Associate",
+				"place": "Heriot-Watt University - Edinburgh, UK",
+				"description": "Following the completion of my studies, I have joined the <a href=\"https://orcahub.org/\" target=\"_blank\">ORCA Hub</a> project. I am working in the Human-Robot Interaction and Explainable AI work package, investigating the visualisation and interactive explanation of automated planning. <br/> I have also taken several teaching responsabilities."
+			},
+			{
+				"date": "2018-09",
+				"dateString": "2015 to 2018",
+				"title": "Research Student",
+				"place": "Heriot-Watt University - Edinburgh, UK",
+				"description": "As a research student (during my Ph.D.), I have assisted the <a href=\"http://strategicfutures.org/\" target=\"_blank\">Strategic Futures Laboratory</a> in many of their research projects."
+			},
+			{
+				"date": "2017-12",
+				"dateString": "2015 to 2017",
+				"title": "Lab Helper",
+				"place": "Heriot-Watt University - Edinburgh, UK",
+				"description": "While pursuing my studies, I have assisted teachers during their lab sessions. I helped undergraduate and postgraduate Computer Science students, by answering their questions and giving guidance for their projects."
+			},
+			{
+				"date": "2016-08",
+				"dateString": "Summers of 2014, 2015 and 2016",
+				"title": "Research Intern",
+				"place": "Heriot-Watt University - Edinburgh, UK",
+				"description": "As a student, I was given the opportunity to work in a research environment, improving the user interface of <a href=\"http://ggrov.github.io/tinker/\" target=\"_blank\">Tinker</a>, a proof-strategy graphs editor."
+			},
+			{
+				"date": "2013-06",
+				"dateString": "June 2013",
+				"title": "Front-End Developer Intern",
+				"place": "Dictanova - Nantes, France",
+				"description": "As part of my Associate Degree, I joined Dictanova's team (now <a href=\"https://www.easiware.com/en/\" target=\"_blank\">Easiware</a>) for a three month placement, building new features for their user interface."
+			},
+			{
+				"date": "2013-01",
+				"dateString": "Before 2013",
+				"title": "Other Experiences",
+				"place": "Nantes and Paris, France - Garðabær, Iceland",
+				"description": "Before studying Computer Science, I have had various summer and part-time jobs: paper deliverer, AF reservist, and logisitic employee."
+			}
+		]
+	},
+	{
+		"rubric": "Education",
+		"order": 2,
+		"entries": [
+			{
+				"date": "2022-12",
+				"dateString": "2021 to 2023",
+				"title": "Postgraduate Certificate (PGCert), Teaching and Supporting Learning in Higher Education",
+				"place": "Edinburgh Napier University - Edinburgh, UK",
+				"description": "Along with my first steps in Lecturing, I undertook this PGCert to broaden my knowledge and reflective practice as an educator. This let me achieve recognition as <a target=\"_blank\" href=\"https://www.advance-he.ac.uk/fellowship\">Fellow of the Higher Education Academic (FHEA)</a>."
+			},
+			{
+				"date": "2018-09",
+				"dateString": "2015 to 2018",
+				"title": "Doctor of Philosophy (Ph.D.), Computer Science",
+				"place": "Heriot-Watt University - Edinburgh, UK",
+				"description": "Following my interest in Data Science, Machine Learning and HCI, I did a Ph.D. in Data Visualisation and Analytics at the <a href=\"http://strategicfutures.org/\" target=\"_blank\">Strategic Futures Laboratory</a>.<br><br>My thesis focuses on automated Topic Map visualisations, and their impact on user confidence. In particular, I have implemented and analysed the effects of data-driven explanations when used to improve user confidence. I have also observed the effects of layout characteristics, as well as algorithm features.<br><br>I was awarded the <i>James Watt Scholarship</i> to fund this studentship."
+			},
+			{
+				"date": "2015-06",
+				"dateString": "2013 to 2015",
+				"title": "Bachelor of Science with Honours (B.Sc. Hons.), First Class, Computer Science",
+				"place": "Heriot-Watt University - Edinburgh, UK",
+				"description": "After my Associate Degree, I enrolled in Heriot-Watt University's Computer Science program, which allowed me to deepen my knowledge in Artificial Intelligence, Language Processors, Computer Graphics, Lambda Calculus, Games Programming and more. In my final year I focused my expertise towards data management and visualisation, with courses like Data Mining, Machine Learning, Data Visualisation and Big Data Management.<br><br>This was complemented with a group project during my third year, which won the Scott Logic Prize. I also received a distinction for my achievements during my third year of studies.<br><br>My honours dissertation project was to create and assess a web-based interface for <a href=\"http://ggrov.github.io/tinker/\" target=\"_blank\">Tinker</a>, a proof-strategy graphs editor."
+			},
+			{
+				"date": "2013-06",
+				"dateString": "2011 to 2013",
+				"title": "Associate Degree (DUT), Software Engineering",
+				"place": "Higher Institute of Technology (IUT) - Nantes, France",
+				"description": "This two year diploma gave me strong bases in many aspects of Computer Science: Algorithmic; Object-Oriented Programming (including conception, specification, design patterns and testing); Modelisation and Formalisation; Operating Systems and Architecture; Web Technologies; Relational Databases; Networks and Security; Mathematics for Computer Science (logic, sets, statistics, arithmetic, graphs).<br><br>These technical courses were complemented with introductory courses in Communication, Economy, Accounting and Business Management, as well as group projects. Finally these two years were concluded with a three month industry placement."
+			},
+			{
+				"date": "2011-06",
+				"dateString": "2011 and before",
+				"title": "Baccalaureate of Science, Mathematics",
+				"place": "Lycée Saint Stanislas - Nantes, France"
+			}
+		]
+	}
+]
