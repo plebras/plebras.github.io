@@ -83,6 +83,12 @@
 		}
 	}
 
+	@media (min-width: 1180px) {
+		div#body {
+			width: 1150px;
+		}
+	}
+
 	nav {
 		width: 100%;
 		border-bottom: 2px solid #ddd;
