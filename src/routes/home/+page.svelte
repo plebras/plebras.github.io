@@ -5,6 +5,7 @@
 	import skillsData from '$lib/data/skills.json';
 
 	import IntroText from '$lib/data/IntroText.svelte';
+	import ContactText from '$lib/data/ContactText.svelte';
 
 	function sunburstSize() {
 		const s = window.innerWidth;
@@ -23,6 +24,7 @@
 
 	<div id="intro">
 		<IntroText />
+		<ContactText />
 	</div>
 </div>
 

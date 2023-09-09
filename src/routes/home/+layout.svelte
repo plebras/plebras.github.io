@@ -9,8 +9,7 @@
 		{ path: basePath + '/projects', title: 'Projects' },
 		{ path: basePath + '/publications', title: 'Publications' },
 		{ path: basePath + '/teaching', title: 'Teaching' },
-		{ path: basePath + '/cv', title: 'CV' },
-		{ path: basePath + '/contact', title: 'Contact' }
+		{ path: basePath + '/cv', title: 'CV' }
 	];
 </script>
 
