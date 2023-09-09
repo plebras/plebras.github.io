@@ -9,14 +9,13 @@ const config = {
 			// default options are shown. On some platforms
 			// these options are set automatically — see below
 			pages: 'build',
-			// assets: 'build',
+			assets: 'build',
 			fallback: 'index.html',
-			// precompress: false,
-			// strict: true
+			precompress: false,
+			strict: true
 		}),
 		paths: {
-            base: dev ? '' : process.env.BASE_PATH,
-			relative: false
+            base: dev ? '' : process.env.BASE_PATH
         }
 	}
 };
