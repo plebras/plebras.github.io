@@ -3,7 +3,7 @@
 
 	import { page } from '$app/stores';
 
-	let basePath = '/home';
+	let basePath = '';
 	let routes = [
 		{ path: basePath, title: 'Home' },
 		{ path: basePath + '/projects', title: 'Projects' },
