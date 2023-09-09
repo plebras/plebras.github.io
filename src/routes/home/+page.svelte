@@ -1,5 +1,4 @@
 <script>
-
 	import Sunburst from '$lib/assets/Sunburst.svelte';
 	import { hierarchy as D3Hierarhy } from 'd3-hierarchy';
 
@@ -9,19 +8,18 @@
 
 	function sunburstSize() {
 		const s = window.innerWidth;
-		return s >= 780 ? 600 : s > 640 ? 500 : s > 540 ? 400 : 300;
+		return s >= 640 ? 500 : s > 540 ? 400 : 300;
 	}
 
 	const hierarchy = D3Hierarhy(skillsData)
 		.sum((d) => d.value)
 		.sort((a, b) => b.value - a.value);
-
 </script>
 
 <div id="home">
 	<h1>About me</h1>
 
-	<Sunburst hierarchy={hierarchy} size={sunburstSize}/>
+	<Sunburst {hierarchy} size={sunburstSize} />
 
 	<div id="intro">
 		<IntroText />
