@@ -4,36 +4,12 @@
 	import Publication from './Publication.svelte';
 	import SectionTitle from '../SectionTitle.svelte';
 
-	import dateUtils from '$lib/utils/date.js';
-
-	function publicationsByYear() {
-		let count = 0;
-		return Object.entries(
-			publications.reduce((res, cur) => {
-				let y = dateUtils.getY(cur.date);
-				res[y] = res[y] || [];
-				cur.id = count++;
-				res[y].push(cur);
-				return res;
-			}, Object.create(null))
-		)
-			.map((e) => {
-				return {
-					key: e[0].toString(),
-					values: e[1].sort((a, b) => {
-						return dateUtils.comp(a.date, b.date);
-					})
-				};
-			})
-			.sort((a, b) => {
-				return b.key - a.key;
-			});
-	}
+	import { byYear } from '$lib/utils/date.js';
 </script>
 
 <h1>List of Publications</h1>
 <div id="publications">
-	{#each publicationsByYear() as year}
+	{#each byYear(publications) as year}
 		<SectionTitle title={year.key} />
 		{#each year.values as publication}
 			<Publication {publication} />

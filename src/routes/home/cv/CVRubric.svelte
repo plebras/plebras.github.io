@@ -2,7 +2,7 @@
 	import CvEntry from './CVEntry.svelte';
 	import SectionTitle from '../SectionTitle.svelte';
 
-	import dateUtils from '$lib/utils/date.js';
+	import { comp } from '$lib/utils/date.js';
 
 	export let rubric;
 
@@ -14,7 +14,7 @@
 				return e;
 			})
 			.sort((a, b) => {
-				return dateUtils.comp(a.date, b.date);
+				return comp(a.date, b.date);
 			});
 	}
 </script>

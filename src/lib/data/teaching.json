@@ -1,0 +1,92 @@
+[
+	{
+		"title": "Course: Foundations of Software Design and Development",
+		"date": "2022-09",
+		"notes": [
+			"First year course for Computing students at Edinburgh Napier University, teaching the fundamentals of algorithms and software design."
+		]
+	},
+	{
+		"title": "Course: Interactive Data Visualisation",
+		"date": "2023-06",
+		"notes": [
+			"Third year course for Data Science students at Edinburgh Napier University, teaching the theory behind visualising data (numerical, categorical, temporal, geographical and relational) and using interactivity to handle complexity. It also strongly emphasises on putting this knowledge to practice by developing interactive data visualisation dashboards with D3.js."
+		]
+	},
+	{
+		"title": "Course: Information Systems Engineering",
+		"date": "2022-09",
+		"notes": [
+			"Master course for Computing students at Edinburgh Napier University, teaching the analysis, modelling and basic implementation of systems from a set of requirements."
+		]
+	},
+	{
+		"title": "Course: Data Analytics (Blended)",
+		"date": "2023-06",
+		"notes": [
+			"Master course for Data Science students at Edinburgh Napier University, teaching the fundamentals of cleaning, mining and visualising data for analysis."
+		]
+	},
+	{
+		"title": "Course: Data Management and Processing (Online)",
+		"date": "2023-06",
+		"notes": [
+			"Master course for Data Engineering students at Edinburgh Napier University, teaching the engineering practices behind creating robust and scalable data analysis pipelines."
+		]
+	},
+	{
+		"title": "Invited Talk: Data Cleaning",
+		"date": "2022-01",
+		"notes": [
+			"Part of the Professional Learning Programme for Colleges (organised by the Edinburgh Data-Driven Innovation (DDI) City Deal project)",
+			"This session exposed Edinburgh Colleges' staff to the principles of data cleaning and data quality, followed by a practical demonstration with Open Refine."
+		],
+		"docs": [["Slides", "2022-01-data_cleaning/Data_Cleansing_2022-01.pdf"]]
+	},
+	{
+		"title": "Blog Post: D3 + Tippy = Easy Tooltips on Your Visualisations",
+		"date": "2021-03",
+		"notes": [
+			"Tutorial on how to integrate Tippy.js within a D3.js project to enable tooltips on visualisations."
+		],
+		"links": [
+			["Blog post", "https://dev.to/plebras/d3-tippy-easy-tooltips-on-your-visualisations-59l3"]
+		]
+	},
+	{
+		"title": "Blog Post: Setting Up a JavaScript Build Process using Rollup",
+		"date": "2021-01",
+		"notes": [
+			"Instructions on how set up a building process for JavaScript modules, exploring bundling, linting, transpiling, and minifying."
+		],
+		"links": [
+			["Blog post", "https://dev.to/plebras/setting-up-a-javascript-build-process-using-rollup-n1e"]
+		]
+	},
+	{
+		"title": "Blog Post: Want to learn D3? Let's make a bar chart!",
+		"date": "2020-12",
+		"notes": ["A small tutorial exploring basic notions of D3 by creating a bar chart."],
+		"links": [["Blog post", "https://dev.to/plebras/want-to-learn-d3-let-s-make-a-bar-chart-3o5n"]]
+	},
+	{
+		"title": "Invited Talk: Document Preparation and Tools",
+		"date": "2020-10",
+		"notes": [
+			"Lecture given to honours students to help them prepare their dissertation document, and present them a LaTeX template for it."
+		],
+		"docs": [
+			["Slides", "2020-10-doc_preparation/Document_Preparation_Tools_2020-10.pdf"],
+			["Dissertation template", "2020-10-doc_preparation/dissertation_template_ouput_2020-10.pdf"],
+			["Template sources", "2020-10-doc_preparation/dissertation_template_latex_2020-10.zip"]
+		]
+	},
+	{
+		"title": "Invited Talk: Introduction to Topic Models",
+		"date": "2020-02",
+		"notes": [
+			"Lecture given to Data Visualisation and Analytics students, introducing them the core concepts of topic models."
+		],
+		"docs": [["Slides", "2020-02-intro_topic_model/IntroductionTopicModels_2020-02_04.pdf"]]
+	}
+]
