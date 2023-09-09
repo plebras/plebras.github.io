@@ -1,0 +1,99 @@
+[
+	{
+		"title": "Tinker",
+		"date": "2015-06",
+		"image": "tinker-1.png",
+		"notes": [
+			"Tinker is a tool that provides graphical representations for proof strategies.",
+			"My collaboration on this project consisted in refactoring the user interface: extending the drawing tools; adding intuitive hierarchy inspections; consolidating the communication between interface and prover; providing a library functionality for Proof Strategy graphs.",
+			"I have also developed a lightweight web plugin to allow for an easy sharing of proof strategies graph."
+		],
+		"links": [["Project website", "https://ggrov.github.io/tinker/"]]
+	},
+	{
+		"title": "9 Years of UK and EU Research",
+		"date": "2016-10",
+		"image": "brexit-1.png",
+		"notes": [
+			"With the Strategic Futures Lab, I have collaborated on creating Topic Map visualisations, using Topic Modelling algorithms and mapping techniques.",
+			"One of the first advanced application we have produced is a thematic comparison between UK funded and EU funded research projects (in the UK)."
+		],
+		"links": [
+			["Online application", "https://strategicfutures.org/hexmaps/ukeutopics/2017-01/app/"]
+		]
+	},
+	{
+		"title": "Topic Mapping Explanations",
+		"date": "2017-03",
+		"image": "explanation-1.png",
+		"notes": [
+			"Part of my Ph.D. looked at producing data-driven explanations for map layouts, in particular Topic Maps.",
+			"I have focused my research on two layout techniques: projective (using dimensionality reduction) and agglomerative (using hiearchical clustering)."
+		],
+		"links": [
+			[
+				"Online application - Projective",
+				"https://strategicfutures.org/demos/TopicMappingExplanations/projective.html"
+			],
+			[
+				"Online application - Agglomerative",
+				"https://strategicfutures.org/demos/TopicMappingExplanations/agglomerative.html"
+			]
+		]
+	},
+	{
+		"title": "Research.Scot",
+		"date": "2020-03",
+		"image": "researchscot-1.png",
+		"notes": [
+			"Research.Scot was developed with the Strategic Futures Lab, extending previous work on Topic Maps.",
+			"It shows, in a thematice hierarchy, the research published by 15 Scottish universities, giving an overview of Scotland's research expertise."
+		],
+		"links": [["Online application", "https://research.scot"]]
+	},
+	{
+		"title": "Visualising COVID-19 Research",
+		"date": "2020-05",
+		"image": "covid19-1.png",
+		"notes": [
+			"With the Strategic Futures Lab, we have developed two Topic Maps displaying the topics and trends in research addressing COVID-19."
+		],
+		"links": [
+			[
+				"Online application - Dimensions dataset",
+				"https://strategicfutures.org/TopicMaps/COVID-19/dimensions.html"
+			],
+			[
+				"Online application - CORD-19 dataset",
+				"https://strategicfutures.org/TopicMaps/COVID-19/cord19.html"
+			]
+		]
+	},
+	{
+		"title": "UKRI Covid-19 Grants",
+		"date": "2020-08",
+		"image": "ukri-1.png",
+		"notes": [
+			"Contacted by UKRI, we have developed two Topic Maps to visualise their research innovation grants awarded in response to the COVID 19 pandemic."
+		],
+		"links": [
+			[
+				"Online application - Research Grants",
+				"https://strategicfutures.org/TopicMaps/UKRI/research_map.html"
+			],
+			[
+				"Online application - Innovation Grants",
+				"https://strategicfutures.org/TopicMaps/UKRI/innovation_map.html"
+			]
+		]
+	},
+	{
+		"title": "Plan Curves",
+		"date": "2020-10",
+		"image": "plancurves-1.png",
+		"notes": [
+			"As part of the ORCA Hub project, I have developed Plan Curves, and online visualisation tool for multi-agent temporal plans."
+		],
+		"links": [["Online application", "https://strategicfutures.org/PlanCurves/"]]
+	}
+]
