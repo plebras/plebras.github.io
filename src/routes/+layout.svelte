@@ -3,13 +3,12 @@
 
 	import { page } from '$app/stores';
 
-	let basePath = '/home';
 	let routes = [
-		{ path: basePath, title: 'Home' },
-		{ path: basePath + '/projects', title: 'Projects' },
-		{ path: basePath + '/publications', title: 'Publications' },
-		{ path: basePath + '/teaching', title: 'Teaching' },
-		{ path: basePath + '/cv', title: 'CV' }
+		{ path: '/', title: 'Home' },
+		{ path: '/projects', title: 'Projects' },
+		{ path: '/publications', title: 'Publications' },
+		{ path: '/teaching', title: 'Teaching' },
+		{ path: '/cv', title: 'CV' }
 	];
 </script>
 
