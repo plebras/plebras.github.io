@@ -104,5 +104,14 @@
 			"The result of a weekend side-project, I looked into the OS archive of Trig Pillars and made a few experiments with Delaunay triangulations and Alpha shapes."
 		],
 		"links": [["Observable Notebook", "https://observablehq.com/d/97a2da426c1b920c"]]
+	},
+	{
+		"title": "Projecting Scottish Peaks",
+		"date": "2025-04",
+		"image": "scottish-peaks-1.png",
+		"notes": [
+			"Another side-project from an extended weekend. Looking at the Database of British and Irish Hills, I extracted Scottish peaks, including the famous Munros, Corbetts and Grahams. I then played around with GeoSpatial Radial displays."
+		],
+		"links": [["Observable Notebook", "https://observablehq.com/d/5ca210c01f39a334"]]
 	}
 ]
