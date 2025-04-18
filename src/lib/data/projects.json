@@ -92,8 +92,14 @@
 		"date": "2020-10",
 		"image": "plancurves-1.png",
 		"notes": [
-			"As part of the ORCA Hub project, I have developed Plan Curves, and online visualisation tool for multi-agent temporal plans."
+			"As part of the ORCA Hub project, I have developed Plan Curves, an online visualisation tool for multi-agent temporal plans."
 		],
 		"links": [["Online application", "https://strategicfutures.org/PlanCurves/"]]
+	},
+	{
+		"title": "Triangulating UK Trig Pillars",
+		"date": "2025-04",
+		"notes": [],
+		"links": [["Observable Notebook", "https://observablehq.com/d/97a2da426c1b920c"]]
 	}
 ]
