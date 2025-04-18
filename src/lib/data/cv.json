@@ -4,12 +4,28 @@
 		"order": 3,
 		"entries": [
 			{
+				"date": "2024-12",
+				"dateString": "2024 and 2025",
+				"title": "Data Visualisations and Analytics",
+				"subtitle": "(Course)",
+				"place": "Heriot-Watt University - Edinburgh, UK",
+				"description": "This course teaches MSc and Honours Computer Science students the analysis, transformation, mapping and storytelling principles to build interactive Data Visualisation systems."
+			},
+			{
+				"date": "2024-12",
+				"dateString": "2023 and 2024",
+				"title": "Software Engineering Foundations",
+				"subtitle": "(Course)",
+				"place": "Heriot-Watt University - Edinburgh, UK",
+				"description": "This course teaches MSc Computer Science students the basics of OOP (Java) and Software Engineering practices using GitLab."
+			},
+			{
 				"date": "2023-08",
 				"dateString": "2021 and 2022",
 				"title": "Foundations of Software Design and Development",
 				"subtitle": "(Course)",
 				"place": "Edinburgh Napier University - Edinburgh, UK",
-				"description": "This course taught first year Computing students the fundamentals of algorithmic and software design in Java."
+				"description": "This course taught first-year Computing students the fundamentals of algorithmic and software design in Java."
 			},
 			{
 				"date": "2023-08",
@@ -25,7 +41,7 @@
 				"title": "Information Systems Engineering",
 				"subtitle": "(Course)",
 				"place": "Edinburgh Napier University - Edinburgh, UK",
-				"description": "This course taught master Computing students the principles of analysis, modelling, inplementation of software systems from a set of requirements."
+				"description": "This course taught master Computing students the principles of analysis, modelling, and implementation (C#) of software systems from a set of requirements."
 			},
 			{
 				"date": "2023-08",
@@ -33,7 +49,7 @@
 				"title": "Data Analytics",
 				"subtitle": "(Course - Blended)",
 				"place": "Edinburgh Napier University - Edinburgh, UK",
-				"description": "This course taught master Data Science students the fundamentals of cleaning, mining, and visualising data for analysis."
+				"description": "This course taught master's Data Science students the fundamentals of cleaning, mining, and visualising data for analysis."
 			},
 			{
 				"date": "2023-08",
@@ -41,7 +57,7 @@
 				"title": "Data Management and Processing",
 				"subtitle": "(Course - Online)",
 				"place": "Edinburgh Napier University - Edinburgh, UK",
-				"description": "This course taught master Data Engineering students the development of robust and scalable data processing pipelines."
+				"description": "This course taught master's Data Engineering students the development of robust and scalable data processing pipelines."
 			},
 			{
 				"date": "2022-01",
@@ -57,7 +73,7 @@
 				"title": "Document Preparation and Tools",
 				"subtitle": "(Invited Lecture)",
 				"place": "Heriot-Watt University - Edinburgh, UK",
-				"description": "Building from my experience with previous years, I gave a lecture to Honours student on preparing their dissertation, also giving them a basic introduction on writing it with LaTeX."
+				"description": "Building on my experience with previous years, I gave a lecture to Honours student on preparing their dissertation, also giving them a basic introduction on writing it with LaTeX."
 			},
 			{
 				"date": "2020-03",
@@ -109,7 +125,7 @@
 				"dateString": "Since September 2023",
 				"title": "Assistant Professor in Computer Science",
 				"place": "Heriot-Watt University - Edinburgh, UK",
-				"description": ""
+				"description": "I mostly teach master's and honours students, with the chance of transmitting both my passions: Software Engineering and Data Science. <br/> I also supervise Master's and Honours dissertations, typically focusing on Data Visualisation related projects. <br/> I am the Programme Director for the MSc Data Science."
 			},
 			{
 				"date": "2023-08",
