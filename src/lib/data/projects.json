@@ -99,7 +99,10 @@
 	{
 		"title": "Triangulating UK Trig Pillars",
 		"date": "2025-04",
-		"notes": [],
+		"image": "trig-uk-1.png",
+		"notes": [
+			"The result of a weekend side-project, I looked into the OS archive of Trig Pillars and made a few experiments with Delaunay triangulations and Alpha shapes."
+		],
 		"links": [["Observable Notebook", "https://observablehq.com/d/97a2da426c1b920c"]]
 	}
 ]
